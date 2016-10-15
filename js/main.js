@@ -43,8 +43,8 @@ $(document).ready(function(){
     eventObject.stopPropagation(); // Detiene la propagación del evento en una jerarquía
     google_link.hide(1000);
     google_link.show(2000);
-    google_link.slideUp(2000);
-    google_link.slideDown(4000);
+    google_link.slideUp(2000).delay(2000);
+    google_link.slideDown(4000).delay(4000);
   });
 });
 
